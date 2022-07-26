@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 80px;
+    align-items: center;
+}
+
+#LogoAP{
+    width: 150px;
+}
+
+#Logoministerio{
+    width: 300px;
+}
+
+img{
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.btn{
+    margin-left: 40px;
+    width: 100px;
+    height: 40px;
+    letter-spacing: 4px;
+    font-size: medium;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.2s;
+    box-shadow: 0 0 10px white;
+}
+
+/* vista desde movil */
+

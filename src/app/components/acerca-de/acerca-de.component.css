@@ -6,12 +6,13 @@ div{
     padding: 80px;
     border: 10px;
     border-color: white;
-
+    color: white;
+    font-size: 20px;
 }
 
 #nombre{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: italic;
 }

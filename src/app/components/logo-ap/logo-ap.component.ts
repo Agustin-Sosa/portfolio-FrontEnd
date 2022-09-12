@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { TokenService } from 'src/app/service/token.service';
-import { LoginComponent } from '../login/login.component';
+
 
 @Component({
   selector: 'app-logo-ap',
@@ -27,7 +27,7 @@ export class LogoAPComponent implements OnInit {
   }
 
   login(){
-    this.router.navigate(['/login'])
+    this.router.navigate(['/login']);
   }
 
 }

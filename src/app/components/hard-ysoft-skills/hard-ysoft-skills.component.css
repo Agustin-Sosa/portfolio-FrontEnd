@@ -23,3 +23,9 @@ h2{
     margin-top: 100px;
     
 }
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

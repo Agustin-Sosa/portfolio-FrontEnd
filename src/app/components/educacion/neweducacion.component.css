@@ -1,0 +1,26 @@
+.row{
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 40px;
+    color: rgb(63, 125, 128);
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 5px;
+    width: 700px;
+    height: 400px;
+    box-shadow: 7px 13px 37px #000;
+}
+.form-group{
+    margin-top: 30px;
+}
+
+#button{
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: larger;
+    width: 100%;
+}

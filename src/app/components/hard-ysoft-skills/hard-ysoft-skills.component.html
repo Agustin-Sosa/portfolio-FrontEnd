@@ -22,13 +22,15 @@
         [animation]="true" 
         [animationDuration]="900">
         </circle-progress>
-
-        <td *ngIf="isLogged">
-            <button class="btn btn-outline-info" routerLink="/editskill/{{skill.id}}">
-                <i class="bi bi-pencil-square"></i> EDITAR</button>
-        </td>
-        <td *ngIf="isLogged">
-            <button class="btn btn-outline-danger" (click)="delete(skill.id)">
-                <i class="bi bi-trash-fill"></i> BORRAR</button>
+        
+        <div>
+            <td *ngIf="isLogged">
+                <button class="btn btn-outline-info" routerLink="/editskill/{{skill.id}}">
+                    <i class="bi bi-pencil-square"></i> EDITAR</button>
+            </td>
+            <td *ngIf="isLogged">
+                <button class="btn btn-outline-danger" (click)="delete(skill.id)">
+                    <i class="bi bi-trash-fill"></i> BORRAR</button>
+        </div>
     </div>
 </div>
